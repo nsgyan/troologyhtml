@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.main_logo {
+    width: 100px !important;
+    height: 50px !important;
+}
+.profile_info .style_1 {
+    background: #000;
+    width: 100%;
+    height: 500px;
+}
+/* .fixed-header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 8888;
+}  */
+.profile_info.style_1 {
+    padding: 90px 0 200px;
+    -webkit-background: url(../img/new-slider.jpg)left bottom no-repeat;
+    -moz-background: url(../img/new-slider.jpg)left bottom no-repeat;
+    background: url(../img/new-slider.jpg)left bottom no-repeat;
+    background-size: cover;
+    height: 100vh!important;
+    width: 100vw!important;
+}
+.profile_info.style_1 .profile_info_iner h2 {
+    color: rgb(30 30 30);
+    font-size: 50px;
+}
+.logo-icon {
+    margin-bottom: 2rem;
+}
+.scroll {
+    color: rgb(39, 39, 39);
+    margin-top: 20px;
+}
+.header_part.classic_header .navbar .dropdown:hover .nav-link {
+    color: #F33A38;
+}
+.logo img {
+    width: 140px;
+    height: 38px;
+}
+.multiScroll_section .multiScroll_content p {
+    color: #fff;
+}
+.multiScroll_section .multiScroll_content4 h5 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.fullWidthSec {
+    -webkit-background: url(../img/breadcrumb_bg/team_breadcrumg_1.png)left top no-repeat;
+    -moz-background: url(../img/breadcrumb_bg/team_breadcrumg_1.png)left top no-repeat;
+    background: url(../img/breadcrumb_bg/team_breadcrumg_1.png)left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 9rem 0;
+}
+.fullWidthSec .fullWidthSecCon h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fullWidthSec .fullWidthSecCon p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.ServiceBoxBtn {
+    margin-top: 15px;
+}
+.nav-pills .nav-link {
+    background-color: #f6f6f6;
+    border-radius: 0;
+    margin: 0 10px 20px;
+    color: #000;
+    padding: 15px 20px;
+}
+.nav-pills .nav-link.active {
+    background-color: #F33532;
+}
+.talkToExpert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.talkToExpert {
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 45px 25px
+}
+.talkToExpert .talkToExpertLeft h5{
+    font-size: 35px;
+}
+.Home-page {
+    z-index: 9999;
+    position: relative;
+}
+.DeliveringSec {
+    margin: 3rem 0;
+}
+.DeliveringSec .DeliveringSecCon {
+    background: #FEEEA3;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.DeliveringSec .DeliveringSecCon p {
+    margin-top: 1rem;
+}
+.BsocialIcon a {
+    color: #7d7d7d;
+    margin-left: 1rem;
+}
+.BsocialIcon a {
+    padding-top: 1rem;
+}
+.ourApproach {
+    background-color: #0EAD4C;
+    padding: 2rem 0;
+}
+.ourApproachTab {
+    display: flex;
+    justify-content: center;
+}
+.ourApproachCon .nav-pills .nav-link {
+    background-color: #02923a;
+    margin: 1px;
+    color: #fff;
+    padding: 45px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.ourApproachCon .nav-pills .nav-link.active {
+    background-color: #fff;
+    color: #02923a
+}
+.ourApproachCon .tabConRight, .tabConLeft {
+    margin-top: 2rem;
+}
+.ourApproachCon .tabConRight h2 {
+    color: #fff;
+}
+.ourApproachCon .tabConRight p {
+    color: #fff;
+    margin-top: 1.5rem;
+}
+.ourApproachCon .tabConLeft {
+    background: #fff;
+    border-radius: 10px;
+    height: 23rem;
+}
+.AccelerateSec {
+    background: #E8FBFD;
+    padding: 5rem 0;
+}
+.AccelerateSec .AccelerateSecCon {
+    background: #fff;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+.AccelerateSec .AccelerateSecCon h6 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 0 2rem;
+}
+.AccelerateSec .AccelerateSecCon img {
+    width: 100%;
+    margin: 2rem 0 0;
+}
+.AccelerateSec .AccelerateSecCon p {
+    margin: 1.5rem 2rem 0;
+}
+.AccelerateSecConBtn {
+    margin-right: 2rem;
+}
+.AccelerateSecConBtn button {
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all .5s ease-in-out;
+}
+.AccelerateSecConBtn button:hover {
+    background: #0EAD4C;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.FavoriteBlogSec {
+    background: #282828;
+    padding: 2rem 0;
+}
+.FavoriteBlogSec h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.FavoriteBlogSec p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.BlogBox {
+    background: #f9272c!important;
+    box-shadow:0 1px 0 rgba(0,0,0,.2);
+    position:relative;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.BlogBox .card {
+    border: none;
+    background: #f9272c!important;
+}
+.BlogBox .card h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 2rem 2rem .5rem;
+}
+.BlogBox .card p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 2rem 2rem;
+}
+.BlogBox .card .card__corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2em;
+    height: 2em;
+    background-color: #f9272c!important;
+}
+.BlogBox .card .card__corner .card__corner-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 2em 2em 0;
+    border-color: #ffd800 #282828 #ffd800 #ffd800;
+}
+.BlogBoxIcon a {
+    float: right;
+    color: #000;
+    /* padding-right: .5rem; */
+    margin: 0 1rem 2rem 0;
+}
+.BlogBoxIcon a:first-child {
+    margin-right: 2rem;
+}
+.ViewBtn a button {
+    width: 100%;
+    text-align: center;
+    background: #424242;
+    border: 2px solid #5a5a5a;
+    margin-top: 2rem;
+    padding: 0.75rem 0;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+.ViewBtn a button:hover {
+    background: #f9272c;
+    border: 2px solid #f9272c;
+    color: #fff;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+.StayTuneSec {
+    background: #E6F1FC;
+    padding: 6rem 0;
+}
+.StayTuneSecCon .StayTuneSecConForm .inp-icon {
+    background: url(../img/mail.png)no-repeat 100% , #fff;
+    background-size: 16px;
+    width: 20rem;
+    height: 3rem;
+    padding: 0 1rem;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+}
+.StayTuneSec .StayTuneSecCon h3 {
+    margin-top: 1rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+.StayTuneSecCon .StayTuneSecCon {
+    margin: 1rem 0;
+}
+.StayTuneSecCon .StayTuneSecConForm {
+    margin: 1rem 0;
+}
+.StayTuneSec .StayTuneSecCon a {
+    color: #0561A8;
+    font-size: 20px;
+    font-weight: 600;
+}
