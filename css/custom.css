@@ -94,7 +94,8 @@
 .talkToExpert {
     background: #f1f1f1;
     border-radius: 5px;
-    padding: 45px 25px
+    padding: 45px 25px;
+    margin-bottom: 5rem;
 }
 .talkToExpert .talkToExpertLeft h5{
     font-size: 35px;
@@ -281,7 +282,7 @@
     padding: 6rem 0;
 }
 .StayTuneSecCon .StayTuneSecConForm .inp-icon {
-    background: url(../img/mail.png)no-repeat 100% , #fff;
+    background: url(../img/mail.png)no-repeat 95% , #fff;
     background-size: 16px;
     width: 20rem;
     height: 3rem;
@@ -304,4 +305,99 @@
     color: #0561A8;
     font-size: 20px;
     font-weight: 600;
+}
+.StayTuneSec .StayTuneSecCon a:hover {
+    text-decoration: underline;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.footer-top .footer-logo-right a {
+    margin-left: 1rem;
+    color: #787878;
+}
+.footer_section_para {
+    margin-bottom: 2rem;
+}
+.section-6 {
+    border-top: 1px solid #e5e4e4;
+    padding-top: 2rem;
+}
+.BlueSec {
+    background: #255CB3;
+    padding: 3rem 0;
+}
+.BlueSec .BlueSecCon {
+    background: #fff;
+    margin: 3rem 0;
+}
+.BlueSec .BlueSecCon {
+    background: #fff;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+.BlueSec .BlueSecCon h6 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 0 2rem;
+}
+.BlueSec .BlueSecCon img {
+    width: 100%;
+    margin: 2rem 0 0;
+}
+.BlueSec .BlueSecCon p {
+    margin: 1.5rem 2rem 0;
+}
+.BlueSecConBtn {
+    margin-right: 2rem;
+}
+.BlueSecConBtn button {
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all .5s ease-in-out;
+}
+.BlueSecConBtn button:hover {
+    background: #0EAD4C;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.BlueSecCon h3 {
+    margin-left: 2rem;
+}
+.LineBusiness {
+    background: #EDEAEA;
+    padding: 5rem 0;
+}
+.LineBusiness h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.LineBusiness .LineBusinessCon {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.LineBusiness .LineBusinessCon h6 {
+    font-size: 27px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.card-margin {
+    margin: 0 8rem;
+}
+.subMenu-img {
+    display: flex;
+    align-items: flex-start;
+}
+.subMenu-img img {
+    margin-right: 10px;
+}
+.subMenuContent {
+    padding: 2rem;
 }
