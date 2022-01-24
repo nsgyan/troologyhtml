@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
-
-
 .main_logo {
     width: 100px !important;
     height: 50px !important;
@@ -62,7 +59,7 @@
     background: url(../img/breadcrumb_bg/team_breadcrumg_1.png)left top no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 9rem 0;
+    padding: 7rem 0;
 }
 .fullWidthSec .fullWidthSecCon h3 {
     color: #fff;
@@ -394,10 +391,75 @@
 .subMenu-img {
     display: flex;
     align-items: flex-start;
+    margin-top: 1rem;
 }
 .subMenu-img img {
     margin-right: 10px;
+    width: 20px;
 }
 .subMenuContent {
     padding: 2rem;
+}
+.businessPara {
+    margin-bottom: 1rem;
+}
+.fullWidthSecCon ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.fullWidthSecCon ul li {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.fullWidthSecCon ul li a {
+    color: #fff;
+}
+.service-tab .card {
+    border: none;
+}
+.service-tab .card-header {
+    background-color: transparent;
+    border-bottom:none;
+}
+.service-tab .btn-link {
+    color: #ed0505;
+    font-size: 22px;
+}
+.service-tab .btn-link:hover , .service-tab .btn-link:active{
+    color: #f30000;
+}
+.service-tab .btn {
+    padding: 0.375rem 0;
+}
+.Digital-para {
+    margin-top: 1.5rem;
+}
+.service-tab .nav-tabs .nav-link {
+    border: none;
+}
+.service-tab .nav-tabs {
+    border-bottom: none;
+}
+.service-tab-con .nav-tabs .nav-link {
+    color: #272727;
+    padding: 10px 20px 10px 0;
+}
+.service-tab-con .nav-tabs .nav-link.active {
+    color: #f10000;
+}
+.cloudServicetab {
+    text-align: left;
+}
+.cloudServicetab ul {
+    /* list-style-type: none; */
+    padding-left: 18px;
+}
+.cloudServicetab ul li {
+    margin-top: 1rem;
+}
+.cloudServicetab ul li a {
+    color: rgb(47, 47, 47);
+}
+.SolutioningApproach {
+    margin-bottom: 2rem;
 }

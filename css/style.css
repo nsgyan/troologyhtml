@@ -525,7 +525,7 @@ button:focus,
 
 .section_tittle {
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 @media (max-width: 767.98px) {
   .section_tittle {
@@ -1853,7 +1853,7 @@ button:focus {
   }
 }
 .header_part .menu_list .dropdown-menu .dropdown-item {
-  padding: 8px 0 !important;
+  padding: 3px 0 !important;
 }
 .header_part .menu_list .dropdown-menu .dropdown-item:hover {
   background-color: transparent !important;
