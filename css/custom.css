@@ -36,13 +36,23 @@
     color: rgb(39, 39, 39);
     margin-top: 20px;
 }
-.header_part.classic_header .navbar .dropdown:hover .nav-link {
+.header_part.classic_header .navbar .nav-link {
+    font-size: 1rem !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.header_part.classic_header .navbar .dropdown:hover .nav-link:hover, .header_part.classic_header .navbar .nav-link:hover {
     color: #F33A38;
+    font-size: 1rem !important;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 .logo img {
-    width: 140px;
-    height: 38px;
+    width: 195px;
+    height: 53px;
 }
+
+
 .multiScroll_section .multiScroll_content p {
     color: #fff;
 }
@@ -392,6 +402,7 @@
     display: flex;
     align-items: flex-start;
     margin-top: 1rem;
+    border-bottom: 1px solid #dfdfdf;
 }
 .subMenu-img img {
     margin-right: 10px;
@@ -399,6 +410,11 @@
 }
 .subMenuContent {
     padding: 2rem;
+}
+.subMenuContent ul {
+    margin-top: 1rem;
+    list-style-type: none;
+    padding-left: 0;
 }
 .businessPara {
     margin-bottom: 1rem;
@@ -446,12 +462,12 @@
 }
 .service-tab-con .nav-tabs .nav-link.active {
     color: #f10000;
+    border-bottom: 1px solid #f10000;
 }
 .cloudServicetab {
     text-align: left;
 }
 .cloudServicetab ul {
-    /* list-style-type: none; */
     padding-left: 18px;
 }
 .cloudServicetab ul li {
@@ -462,4 +478,44 @@
 }
 .SolutioningApproach {
     margin-bottom: 2rem;
+}
+.trooiq-sec img {
+    width: 100%;
+    margin-top: 1rem;
+}
+.trooiq-sec a button {
+    margin-top: 1rem;
+    border: none;
+    background: #F33532;
+    color: #fff;
+    padding: 10px 15px;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+.trooiq-sec a button:hover {
+    background: #9b1d1a;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+.single_menu_list ul li {
+    cursor: pointer;
+}
+.Connect_Menu {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 1rem;
+}
+.Connect_Menu {
+    color: #F33532;
+} 
+.header_part.classic_header .navbar .dropdown-menu .dropdown-item {
+    padding: 0 25px;
+}
+.header_part.classic_header .navbar .nav-link {
+    font-size: 13px !important;
+}
+.header_part.classic_header .navbar .dropdown:hover .nav-link:hover, .header_part.classic_header .navbar .nav-link:hover {
+    font-size: 13px !important;
 }
