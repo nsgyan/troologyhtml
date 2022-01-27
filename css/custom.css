@@ -75,6 +75,7 @@
     color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 .fullWidthSec .fullWidthSecCon p {
     color: #fff;
@@ -143,7 +144,7 @@
     color: #fff;
     padding: 45px 30px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .ourApproachCon .nav-pills .nav-link.active {
     background-color: #fff;
@@ -409,7 +410,7 @@
     width: 20px;
 }
 .subMenuContent {
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 .subMenuContent ul {
     margin-top: 1rem;
@@ -505,7 +506,7 @@
 .Connect_Menu {
     display: flex;
     align-items: center;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 .Connect_Menu {
     color: #F33532;
@@ -519,3 +520,97 @@
 .header_part.classic_header .navbar .dropdown:hover .nav-link:hover, .header_part.classic_header .navbar .nav-link:hover {
     font-size: 13px !important;
 }
+.menu_list_inner_content .card {
+    border: none;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 20px 0;
+}
+.menu_list_inner_content .card .card-body {
+    padding: 1rem;
+}
+.menu_list_inner_content .card .card-body .card-text {
+    font-size: 15px;
+    color: #404040;
+}
+.subMenuContent .subMenu-img h5 {
+    font-size: 16px;
+}
+.header_part.classic_header .navbar .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    font-weight: 500;
+}
+.header_part.classic_header .navbar .dropdown-menu {
+    padding: 0;
+}
+.header_part .menu_list .menu_list_inner_content {
+    padding: 0 20px 10px; 
+}
+.breadcrumb_part h2 {
+    font-size: 60px;
+}
+.service-arrordion-para {
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+@media (min-width: 1200px) {
+    .header_part .menu_list .single_menu_list {
+    margin: 0;
+    }
+}
+.use-case-sec {
+    margin-bottom: 5rem;
+    /* background: #dffbe3; */
+}
+.use-case {
+    color: #fff;
+    font-size: 58px;
+    margin: 10px 0 32px;
+}
+.pages-link {
+    margin-bottom: 10px;
+}
+.testimonial_section .single_testimonial_slider p {
+    font-size: 24px;
+    line-height: 1.7;
+}
+.section_tittle h2 {
+    font-size: 37px;
+}
+.ft_font p {
+    font-size: 15px;
+}
+.ServiceBox {
+    margin: 2rem 0;
+}
+.ServiceBox .card-text {
+    font-size: 15px;
+}
+.ServiceBox ul {
+    padding-left: 1rem;
+}
+.ServiceBox ul li  { 
+    margin-top: .75rem;
+}
+.ServiceBox ul li a { 
+    /* margin-top: 2rem; */
+    color: #051441;
+    font-weight: 600;
+}
+.blocks-3 {
+    margin: 3rem 0;
+}
+.Infrastructure {
+    margin-top: 3rem;
+}
+.block-img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_us_section .about_us_img:last-child {
+    margin-top: 0;
+} 
+.about_us_section .about_us_img {
+    margin-top: 0;
+}
+
