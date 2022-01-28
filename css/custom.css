@@ -25,6 +25,9 @@
     height: 100vh!important;
     width: 100vw!important;
 }
+.profile_info.style_1 .profile_info_iner {
+    margin-top: 4rem;
+}
 .profile_info.style_1 .profile_info_iner h2 {
     color: rgb(30 30 30);
     font-size: 50px;
@@ -51,10 +54,9 @@
     width: 195px;
     height: 53px;
 }
-
-
 .multiScroll_section .multiScroll_content p {
     color: #fff;
+    font-size: 1rem;
 }
 .multiScroll_section .multiScroll_content4 h5 {
     font-size: 24px;
@@ -69,7 +71,7 @@
     background: url(../img/breadcrumb_bg/team_breadcrumg_1.png)left top no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 7rem 0;
+    padding: 5rem 0;
 }
 .fullWidthSec .fullWidthSecCon h3 {
     color: #fff;
@@ -106,7 +108,7 @@
     margin-bottom: 5rem;
 }
 .talkToExpert .talkToExpertLeft h5{
-    font-size: 35px;
+    font-size: 32px;
 }
 .Home-page {
     z-index: 9999;
@@ -122,9 +124,14 @@
 }
 .DeliveringSec .DeliveringSecCon p {
     margin-top: 1rem;
+    font-size: 1rem;
+    color: #000;
+}
+.BsocialIcon {
+    margin-top: 2rem;
 }
 .BsocialIcon a {
-    color: #7d7d7d;
+    color: #1c1c1c;
     margin-left: 1rem;
 }
 .BsocialIcon a {
@@ -159,6 +166,7 @@
 .ourApproachCon .tabConRight p {
     color: #fff;
     margin-top: 1.5rem;
+    font-size: 1rem;
 }
 .ourApproachCon .tabConLeft {
     background: #fff;
@@ -185,6 +193,7 @@
 }
 .AccelerateSec .AccelerateSecCon p {
     margin: 1.5rem 2rem 0;
+    font-size: 1rem;
 }
 .AccelerateSecConBtn {
     margin-right: 2rem;
@@ -204,11 +213,11 @@
 }
 .FavoriteBlogSec {
     background: #282828;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 .FavoriteBlogSec h2 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 .FavoriteBlogSec p {
@@ -229,7 +238,7 @@
 }
 .BlogBox .card h1 {
     color: #fff;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     padding: 2rem 2rem .5rem;
 }
@@ -358,6 +367,7 @@
 }
 .BlueSec .BlueSecCon p {
     margin: 1.5rem 2rem 0;
+    font-size: 1rem;
 }
 .BlueSecConBtn {
     margin-right: 2rem;
@@ -383,7 +393,7 @@
     padding: 5rem 0;
 }
 .LineBusiness h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 .LineBusiness .LineBusinessCon {
@@ -392,8 +402,8 @@
     margin-top: 2rem;
 }
 .LineBusiness .LineBusinessCon h6 {
-    font-size: 27px;
-    font-weight: 400;
+    font-size: 23px;
+    font-weight: 500;
     padding-left: 1rem;
 }
 .card-margin {
@@ -468,6 +478,9 @@
 .cloudServicetab {
     text-align: left;
 }
+.cloudServicetab p {
+    font-size: 1rem;
+}
 .cloudServicetab ul {
     padding-left: 18px;
 }
@@ -475,7 +488,8 @@
     margin-top: 1rem;
 }
 .cloudServicetab ul li a {
-    color: rgb(47, 47, 47);
+    color: rgb(92 92 92);
+    font-weight: 700;
 }
 .SolutioningApproach {
     margin-bottom: 2rem;
@@ -563,7 +577,7 @@
 }
 .use-case {
     color: #fff;
-    font-size: 58px;
+    font-size: 50px;
     margin: 10px 0 32px;
 }
 .pages-link {
@@ -574,7 +588,7 @@
     line-height: 1.7;
 }
 .section_tittle h2 {
-    font-size: 37px;
+    font-size: 35px;
 }
 .ft_font p {
     font-size: 15px;
@@ -613,4 +627,66 @@
 .about_us_section .about_us_img {
     margin-top: 0;
 }
-
+.footer_section_para {
+    font-size: 1rem;
+} 
+.footer_section .footer_nav ul li a {
+    font-size: 1rem;
+}
+.faq_content.collaps_style .btn {
+    font-size: 19px;
+}
+.faq_content.collaps_style .card-body {
+    font-size: 1rem;
+}
+.single_service_section p {
+    font-size: 1rem;
+}
+.single_blog_post ul a {
+    font-size: 14px;
+}
+.single_blog_post h4 a {
+    font-size: 20px;
+}
+.about_section .about_section_content h2 {
+    font-size: 41px;
+    font-weight: 500;
+}
+.about_section .about_section_content p {
+    font-size: 1rem;
+}
+.countdown_section .countdown_section_tittle h4 {
+    font-size: 35px;
+    line-height: 1.4;
+}
+.contact_info_section .single_contact_info h4 {
+    font-size: 22px;
+}
+.section_tittle {
+    margin-bottom: 33px;
+}
+.Cyber-Security {
+    margin: 1rem 0 4rem;
+}
+.Cyber-Security p {
+    font-size: 1rem;
+}
+.magiq-text p span {
+    background-color: #e92c2f;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.magiq-text h2 {
+    font-size: 38px;
+    margin-top: 8px;
+}  
+.magiq-text h2 span {
+    color: #e92c2f;
+}   
+.multiScroll_section .multiScroll_content h2 a {
+    font-size: 50px;
+    font-weight: 500;
+}
+ 
