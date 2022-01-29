@@ -31,6 +31,7 @@
 .profile_info.style_1 .profile_info_iner h2 {
     color: rgb(30 30 30);
     font-size: 50px;
+    
 }
 .logo-icon {
     margin-bottom: 2rem;
@@ -149,7 +150,7 @@
     background-color: #02923a;
     margin: 1px;
     color: #fff;
-    padding: 45px 30px;
+    padding: 25px 30px;
     border-radius: 5px;
     font-size: 17px;
 }
@@ -190,6 +191,7 @@
 .AccelerateSec .AccelerateSecCon img {
     width: 100%;
     margin: 2rem 0 0;
+    padding: 0 2rem;
 }
 .AccelerateSec .AccelerateSecCon p {
     margin: 1.5rem 2rem 0;
@@ -364,6 +366,7 @@
 .BlueSec .BlueSecCon img {
     width: 100%;
     margin: 2rem 0 0;
+    padding: 0 2rem;
 }
 .BlueSec .BlueSecCon p {
     margin: 1.5rem 2rem 0;
@@ -688,5 +691,203 @@
 .multiScroll_section .multiScroll_content h2 a {
     font-size: 50px;
     font-weight: 500;
+}
+
+
+
+
+
+/* ---------------------Media Query Start --------------------------- */
+
+@media only screen and (max-width: 1024px) {
+    .ourApproachCon .nav-pills .nav-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .faq_content.collaps_style .btn.collapsed {
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .breadcrumb_part {
+        height: 250px;
+    }
+    .breadcrumb_part h2 {
+        font-size: 40px;
+    }
+    .breadcrumb_part .breadcrumb_iner_link a {
+        font-size: 14px;
+    }
+    .breadcrumb_part p {
+        font-size: 14px;
+    }
+    .about_us_section .about_section_img {
+        margin: 3rem 0;
+    }
+    .section_tittle h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .Evolve_left_sec img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .fullWidthSec .fullWidthSecCon h3 {
+        font-size: 35px;
+    }
+    .block-img-con {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cloudServicetab {
+        margin-top: 2rem;
+    }
+    .ourApproachCon .tabConRight, .tabConLeft {
+        text-align: center;
+    }
+    .BlueSec .BlueSecCon img {
+        padding: 0 2rem;
+    }
+    /* .about_us_section {
+        text-align: center;
+    }  */
+    .Overview_sec {
+        margin-top: 3rem;
+    }
+    .AccelerateSec {
+        text-align: center;
+    }
+    .AccelerateSecConBtn button {
+        margin-top: 1.5rem;
+    }
+    .BlueSecConBtn {
+        margin: 2rem 18.5rem 0 0;
+    }
+    .AccelerateSec .AccelerateSecCon h6 {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .breadcrumb_part h2 {
+        font-size: 30px;
+    }
+    .section_tittle h2 {
+        font-size: 28px;
+    }
+    .fullWidthSec .fullWidthSecCon h3 {
+        font-size: 30px;
+    }
+    .fullWidthSec .fullWidthSecCon p {
+        font-size: 1rem;
+    }
+    .fullWidthSecCon ul li a {
+        font-size: 14px;
+    }
+    .use-case {
+        font-size: 40px;
+    }
+    .footer-top {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-logo-left {
+        margin-bottom: 2rem;
+    }
+    .footer_section {
+        text-align: center;
+    }
+    .Evolve_right_sec {
+        text-align: center;
+    }
+    .DeliveringSecCon {
+        text-align: center;
+    }
+    .DeliveringSecCon h3 {
+        line-height: 1.5;
+    }
+    .BlueSecCon h3 {
+        margin-left: 0;
+        font-size: 21px;
+    }
+    .LineBusiness h2 {
+        font-size: 33px;
+    }
+    .LineBusiness .LineBusinessCon h6 {
+        font-size: 20px;
+    }
+    .BlueSec {
+        text-align: center;
+    }
+    .BlueSec .BlueSecCon h6 {
+        margin: 0;
+        text-align: center;
+    }
+    .about_us_section .about_section_img {
+        display: none;
+    }
+    .Overview_sec {
+        margin-top: 0;
+    }
+    .BsocialIcon {
+        margin: 2rem 4.5rem 0 0;
+    }
+    .AccelerateSecConBtn {
+        margin: 2rem 8.5rem 0 0;
+    }
+    .AccelerateSec .AccelerateSecCon h6 {
+        margin: 0;
+    }
+    .AccelerateSecConBtn button {
+        margin-top: 0;
+    }
+    .BlueSecConBtn {
+        margin: 2rem 9.5rem 0 0;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .BlueSec .BlueSecCon h6 {
+        line-height: 1.5;
+    }
+    .BsocialIcon {
+        margin: 2rem 3.2rem 0 0;
+    }
+    .AccelerateSecConBtn {
+        margin: 2rem 7.5rem 0 0;
+    }
+    .BlueSecConBtn {
+        margin: 2rem 7.5rem 0 0;
+    }
+    .LineBusiness .LineBusinessCon h6 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .StayTuneSecCon .StayTuneSecConForm .inp-icon {
+        width: 17rem;
+    }
+    .StayTuneSec .StayTuneSecCon h3 {
+        font-size: 33px;
+    }
+    .StayTuneSec .StayTuneSecCon p {
+        font-size: 14px;
+    }
+    .DeliveringSecCon h3 {
+        line-height: 1.7;
+        font-size: 24px;
+    } 
+    .BsocialIcon {
+        margin: 2rem 1.2rem 0 0;
+    }
+    .AccelerateSecConBtn {
+        margin: 2rem 5.5rem 0 0;
+    }
+    .BlueSecConBtn {
+        margin: 2rem 5.5rem 0 0;
+    }
+    .LineBusiness .LineBusinessCon h6 {
+        font-size: 16px;
+    }
 }
  
