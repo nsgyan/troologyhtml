@@ -147,7 +147,7 @@
     justify-content: center;
 }
 .ourApproachCon .nav-pills .nav-link {
-    background-color: #02923a;
+    background-color: #2f8b3d;
     margin: 1px;
     color: #fff;
     padding: 25px 30px;
@@ -155,8 +155,8 @@
     font-size: 17px;
 }
 .ourApproachCon .nav-pills .nav-link.active {
-    background-color: #fff;
-    color: #02923a
+    background-color: #1e722b;
+    color: #fff;
 }
 .ourApproachCon .tabConRight, .tabConLeft {
     margin-top: 2rem;
