@@ -693,10 +693,6 @@
     font-weight: 500;
 }
 
-
-
-
-
 /* ---------------------Media Query Start --------------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -767,6 +763,31 @@
     }
     .AccelerateSec .AccelerateSecCon h6 {
         margin: 0;
+    }
+    .faq_content {
+        margin-top: 4rem;
+    }
+    .single_service_section h4 a {
+        font-size: 20px;
+    }
+    .single_team_member {
+        margin-top: 2rem;
+    }
+    .blog_details_section .blog_details_thumb h2 {
+        font-size: 30px;
+    }
+    .about_section .about_section_content h2 {
+        font-size: 32px;
+    }
+    .countdown_section .countdown_section_tittle h4 {
+        font-size: 29px;
+        line-height: 1.6;
+    }
+    .countdown_section .countdown_section_content span {
+        font-size: 40px;
+    }
+    .cta_part_content p {
+        font-size: 16px;
     }
 }
 @media only screen and (max-width: 425px) {
@@ -845,6 +866,21 @@
     .BlueSecConBtn {
         margin: 2rem 9.5rem 0 0;
     }
+    .testimonial_section .single_testimonial_slider p {
+        font-size: 20px;
+    }
+    .comment_part h4 {
+        font-size: 27px;
+    }
+    .about_section {
+        text-align: center;
+    }
+    .FavoriteBlogSec p {
+        font-size: 1.2rem;
+    }
+    .faq_content {
+        margin-top: 0;
+    }
 }
 @media only screen and (max-width: 375px) {
     .BlueSec .BlueSecCon h6 {
@@ -861,6 +897,13 @@
     }
     .LineBusiness .LineBusinessCon h6 {
         font-size: 18px;
+    }
+    .blog_details_section .blog_details_thumb h2 {
+        font-size: 25px;
+        line-height: 1.7;
+    }
+    .about_section .about_section_content h2 {
+        font-size: 28px;
     }
 }
 @media only screen and (max-width: 320px) {
